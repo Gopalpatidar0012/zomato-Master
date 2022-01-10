@@ -1,4 +1,4 @@
-import { FoodModel } from "./food";
+import { FoodModel } from "./food/index.js";
 import { ImageModel } from "./image";
 import { MenuModel } from "./menu";
 import { OrderModel } from "./order";
