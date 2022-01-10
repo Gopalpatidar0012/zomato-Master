@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    
     "start": " babel-node index.js",
     "dev": "nodemon --exec npm start"
   },

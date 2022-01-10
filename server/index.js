@@ -11,7 +11,7 @@ import  mongoose from "mongoose";
 import ConnectDB from "./database/connection.js";
 
 //API
-import Auth from "./API/Auth";
+import Auth from "./API/Auth/index.js";
 
 const zomato = express();//declaring express application(using express)
 zomato.use(helmet());//this is package and provide additional security and secure our website.

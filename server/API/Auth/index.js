@@ -1,9 +1,9 @@
 //Library
 import express from "express";
-import bcrypt  from "bcryptjs";
+import bcrypt  from "bcrypt";
 import jwt  from "jsonwebtoken";
 //Models
-import { UserModel } from "../../database/allModels";
+import { UserModel } from "../../database/allModels.js";
 
 //Create a Router
 const Router =express.Router();
