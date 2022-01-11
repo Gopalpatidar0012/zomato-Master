@@ -44,14 +44,14 @@ zomato.use("/auth",Auth)
 
 
 
-zomato.listen(4000, ()=>{
+zomato.listen(8000, ()=>{
     // console.log("runningggggg");
     ConnectDB()
     .then(() =>{
         console.log("server runningggg");
     })
     .catch((err)=>{
-        console.log("failed......",err)
+        console.log("not connected......",err)
     })
 });
 
